@@ -1,0 +1,7 @@
+# Jekyll Folders
+_site/
+_drafts/
+
+# Sublime Text Project Files
+*.sublime-project
+*.sublime-workspace
