@@ -1,0 +1,27 @@
+# standard jekyll configuration
+
+permalink: /blog/:title
+pygments: false
+exclude: ['README.md']
+markdown: rdiscount
+
+# configuration required for some pages
+
+domain: olliebennett.github.io
+title: Ollie Bennett
+author: Ollie Bennett
+email: olliebennett@gmail.com
+
+# configuration for enhancements, uncomment to enable
+
+# feedburner:
+#   id: feedburnerid
+
+# google_analytics:
+#   account: UA-XXXXX-X
+
+github:
+    username: ollibennett
+
+# disqus:
+#    id: githubteachingmaterials
