@@ -122,12 +122,14 @@ a, a:visited, a:active, a:hover {
 
 }
 
-div#site-logo img {
-  height: 150;
-  width: 150;
+.img-circle {
   border-radius: 50%;
+}
+
+#site-logo img {
   border: 3px solid black;
 }
+
 
 section {
   padding-bottom: 15px;

@@ -1,7 +1,11 @@
     <header>
 
       <div id="site-logo">
-        <a href="/"><img src="/assets/img/face.jpg" width="150" height="150" /></a>
+{% if page.url == '/contact/index.html' %}
+        <a href="/"><img src="/assets/img/contact-qr.png" width="150" height="150" /></a>
+{% else %}
+        <a href="/"><img class="img-circle" src="/assets/img/face.jpg" width="150" height="150" /></a>
+{% endif %}
       </div>
 
       <h1><a href="/">Ollie Bennett</a></h1>
