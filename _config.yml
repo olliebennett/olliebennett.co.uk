@@ -2,7 +2,7 @@
 
 permalink: /blog/:title
 pygments: false
-exclude: ['README.md']
+exclude: ['README.md', 'olliebennett.github.io.sublime-project', 'olliebennett.github.io.sublime-workspace']
 markdown: rdiscount
 
 # configuration required for some pages
