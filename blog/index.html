@@ -1,0 +1,32 @@
+---
+layout: default
+title: Blog
+description: Ollie's posts.
+categories: none
+---
+
+<section>
+
+<h2>Blog Posts</h2>
+
+    {% for post in site.posts %}
+      {% if post.title %}
+
+<article class="media">
+
+<a class="pull-left" href="{{ post.url | remove:'index.html' }}">
+<img class="media-object" src="{{ post.image }}" width="64" height="64" alt="#">
+</a>
+
+<div class="media-body">
+
+<h3 class="media-heading"><a href="{{ post.url | remove:'index.html' }}">{{ post.title }}</a></h3>
+
+<p class="punchline"><a href="{{ post.url | remove:'index.html' }}">{{ post.description }}</a></p>
+
+</div>
+
+</article>
+      {% endif %}
+    {% endfor %}
+</section>
