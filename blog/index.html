@@ -22,7 +22,11 @@ categories: none
 
 <h3 class="media-heading"><a href="{{ post.url | remove:'index.html' }}">{{ post.title }}</a></h3>
 
-<p class="punchline"><a href="{{ post.url | remove:'index.html' }}">{{ post.description }}</a></p>
+{% if post.punchline %}
+    <p class="punchline">{{ post.date | date_to_string }} » <a href="{{ post.url | remove:'index.html' }}">{{ post.punchline }}</a></p>
+{% else %}
+    <p class="punchline">{{post.date | date_to_string }}</p>
+{% endif %}
 
 </div>
 
