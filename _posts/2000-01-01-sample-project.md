@@ -1,12 +1,11 @@
 ---
 layout: blogpost
-title: Sample Blog Post
-punchline: blog post one
-categories: blog
+title: Sample Project
+categories: project
 image: /assets/img/projects/stsp.png
 ---
 
-This is a sample blog post.
+This is a sample project.
 
 {% highlight ruby linenos %}
 def foo
