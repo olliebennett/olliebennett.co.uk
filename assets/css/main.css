@@ -133,6 +133,10 @@ section {
   padding-bottom: 15px;
 }
 
+article {
+  margin-top: 25px;
+}
+
 div.article-image-container {
   padding: 5px;
   float: left;
