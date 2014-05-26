@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{% if page.title %}{% if page.title != "Home" %}{{ page.title }} • {% endif %}{% endif %}{{ site.title }}</title>
-    <meta name="description" content="The personal website of Ollie Bennett - an IT professional based in London.">
+    <meta name="description" content="{{ page.description }}">
     <meta name="viewport" content="width=device-width">
 {% if page.noindex %}
     <meta name="robots" content="noindex" />
