@@ -83,22 +83,31 @@ a, a:visited, a:active, a:hover {
 
 @media print {
 
+  /* Hide Navigation */
+  #navigation {
+    display: none;
+  }
+
+  /*
   .page-break {
     page-break-before: always;
   }
+
 
   article {
     page-break-inside: avoid;
     page-break-before: avoid;
   }
-
+ */
   h1, h2, h3, h4, h5, h6 {
     page-break-after: avoid;
   }
 
+  /*
   body {
     background: white;
   }
+  */
 
   #container {
 
@@ -107,7 +116,10 @@ a, a:visited, a:active, a:hover {
   }
 
   /* Show link URLs when printing */
-  a:link:after, a:visited:after { content:" [" attr(href) "]"; }
+  a.printable:link:after, a.printable:visited:after {
+    content:" [" attr(href) "]";
+  }
+
   /* Show links as normal text */
   a {
     color: black;
@@ -197,4 +209,31 @@ p.read-more {
 img.bordered {
   /* TODO: reduce margin/padding to compensate for the border? */
   border: 1px solid black;
+}
+
+/* Based on Twitter Bootstrap Labels */
+.skill {
+  display: inline;
+  padding: .1em .3em;
+  margin: .2em 0;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+.skill {
+  position: relative;
+}
+.skill-beginner {
+  background-color: grey;
+}
+.skill-intermediate {
+  background-color: #0077AF;
+}
+.skill-expert {
+  background-color: #008F68;
 }
