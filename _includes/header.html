@@ -4,22 +4,44 @@
 {% if page.url == '/contact/index.html' %}
         <a href="/"><img src="/assets/img/contact-qr.png" width="150" height="150" /></a>
 {% else %}
+  {% if page.title == "Home" %}
+        <img class="img-circle" src="/assets/img/face.jpg" width="150" height="150" />
+  {% else %}
         <a href="/"><img class="img-circle" src="/assets/img/face.jpg" width="150" height="150" /></a>
+  {% endif %}
 {% endif %}
       </div>
 
-      <h1><a href="/">Ollie Bennett</a></h1>
+      <h1>
+{% if page.title == "Home" %}
+        Ollie Bennett
+{% else %}
+        <a href="/">Ollie Bennett</a>
+{% endif %}
+      </h1>
 
       <p>
-      	<a href="/"><i class="fa fa-home"></i></a>
+{% if page.title == "Home" %}
+        <i class="fa fa-home current-page"></i>
+{% else %}
+        <a href="/"><i class="fa fa-home"></i></a>
+{% endif %}
       	 | 
-      	<a href="/projects/"><i class="fa fa-cogs"></i></a>
+{% if page.title == "Projects" %}
+        <i class="fa fa-cogs current-page"></i>
+{% else %}
+        <a href="/projects/"><i class="fa fa-cogs"></i></a>
+{% endif %}
       	<!--
       	 | 
       	<a href="/blog/"><i class="fa fa-comment-o"></i></a>
       	-->
       	 | 
-      	<a href="/contact/"><i class="fa fa-envelope"></i></a>
+{% if page.title == "Contact" %}
+        <i class="fa fa-envelope current-page"></i>
+{% else %}
+        <a href="/contact/"><i class="fa fa-envelope"></i></a>
+{% endif %}
       </p>
 
     </header>

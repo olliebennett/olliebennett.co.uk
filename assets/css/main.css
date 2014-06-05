@@ -237,3 +237,7 @@ img.bordered {
 .skill-expert {
   background-color: #008F68;
 }
+
+.current-page {
+  color: grey;
+}
