@@ -38,6 +38,14 @@ footer {
   padding-top: 15px;
 }
 
+nav {
+  font-size: 1.3em;
+}
+
+.current-page {
+  color: grey;
+}
+
 code {
   border: 1px dotted black;
 }
@@ -54,7 +62,6 @@ h1 {
   font-size: 3em;
 
 }
-
 
 h2 {
 
@@ -84,7 +91,7 @@ a, a:visited, a:active, a:hover {
 @media print {
 
   /* Hide Navigation */
-  #navigation {
+  nav {
     display: none;
   }
 
@@ -139,7 +146,6 @@ a, a:visited, a:active, a:hover {
 #site-logo img {
   border: 3px solid black;
 }
-
 
 section {
   padding-bottom: 15px;
@@ -236,8 +242,4 @@ img.bordered {
 }
 .skill-expert {
   background-color: #008F68;
-}
-
-.current-page {
-  color: grey;
 }
