@@ -2,12 +2,12 @@
 
       <div id="site-logo">
 {% if page.url == '/contact/index.html' %}
-        <a href="/"><img src="/assets/img/contact-qr.png" width="150" height="150" /></a>
+        <a href="/"><img src="/assets/img/contact-qr.png" alt="QR Code" width="150" height="150" /></a>
 {% else %}
   {% if page.title == "Home" %}
-        <img class="img-circle" src="/assets/img/face.jpg" width="150" height="150" />
+        <img class="img-circle" src="/assets/img/face.jpg" alt="Site Logo" width="150" height="150" />
   {% else %}
-        <a href="/"><img class="img-circle" src="/assets/img/face.jpg" width="150" height="150" /></a>
+        <a href="/"><img class="img-circle" src="/assets/img/face.jpg" alt="Site Logo" width="150" height="150" /></a>
   {% endif %}
 {% endif %}
       </div>
