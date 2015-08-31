@@ -1,3 +1,1 @@
-# olliebennett.github.io
-
-Ollie's personal website.
+http://www.olliebennett.co.uk/
