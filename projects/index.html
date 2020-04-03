@@ -9,57 +9,32 @@ categories: none
 
 <h2>Projects</h2>
 
-<article class="media">
+{% for project in site.projects %}
+  <article class="media">
 
-  <a class="pull-left" href="http://studentspreadsheet.com/">
-    <img class="media-object" src="/assets/img/projects/stsp.png" width="64" height="64" alt="#">
-  </a>
+    <a class="pull-left" href="{{ project.url }}">
+      <img class="media-object" src="{{ project.logo }}" width="64" height="64" alt="#">
+    </a>
 
-  <div class="media-body">
+    <div class="media-body">
 
-    <h3 class="media-heading"><a href="http://studentspreadsheet.com/">Student Spreadsheet</a></h3>
+      <h3 class="media-heading">
+        <a href="{{ project.url }}">
+          {{ project.title }}
+        </a>
+        {% if project.website %}
+          <small>
+            <a href="{{ project.website }}">{{ project.website | remove: "https://" | remove: "http://" | remove: "www." }}</a>
+          </small>
+        {% endif %}
+      </h3>
 
-    <p class="punchline">Sharing household expenses with friends.</p>
+      <p class="punchline">
+        {{ project.summary }}
+      </p>
+    </div>
 
-    <p>Born from the need to simplify the splitting of receipts and lending of money to housemates at uni, this bill sharing utility automates the collection, calculation and notification of purchases, with powerful consolidation features saving even more time.</p>
+  </article>
+{% endfor %}
 
-  </div>
-
-</article>
-
-<article class="media">
-
-  <a class="pull-left" href="http://coursecalc.com/">
-    <img class="media-object bordered" src="/assets/img/projects/coursecalc.png" width="64" height="64" alt="#">
-  </a>
-
-  <div class="media-body">
-
-    <h3 class="media-heading"><a href="http://coursecalc.com/">CourseCalc</a></h3>
-
-    <p class="punchline">Calculating and tracking your current and projected degree score.</p>
-
-    <p>Varied weightings of course credits between years and modules means calculating the current degree grade of a university course can be tricky. Getting full details, along with expected outcomes and knowing how much is needed to achieve your goal is even more difficult. Not with <a href="http://coursecalc.com/">CourseCalc.com</a>!</p>
-
-  </div>
-
-</article>
-
-<article class="media">
-
-  <a class="pull-left" href="http://www.qrupted.com/">
-    <img class="media-object" src="/assets/img/projects/qrupted.png" width="64" height="64" alt="#">
-  </a>
-
-  <div class="media-body">
-
-    <h3 class="media-heading"><a href="http://www.qrupted.com/">QRupted</a></h3>
-
-    <p class="punchline">Corrupted QR Codes with custom text overlay.</p>
-
-    <p>Generate a QR Code with pixellated ASCII text superimposed! Enter your QR data to encode, and some brief text to overlay, and the QR code is created. Due to built-in error correction, the encoded data is still accessible!</p>
-
-  </div>
-
-</article>
 </section>

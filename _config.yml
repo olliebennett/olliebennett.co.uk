@@ -11,16 +11,11 @@ title: Ollie Bennett
 author: Ollie Bennett
 email: olliebennett@gmail.com
 
-# configuration for enhancements, uncomment to enable
-
-# feedburner:
-#   id: feedburnerid
-
-# google_analytics:
-#   account: UA-XXXXX-X
-
-github:
-    username: ollibennett
-
-# disqus:
-#    id: githubteachingmaterials
+collections:
+  projects:
+    output: true
+    permalink: projects/:slug/
+    order:
+      - student_spreadsheet.md
+      - qrupted.md
+      - coursecalc.md

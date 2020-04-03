@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="jumbotron">
+  <h2>Project Details</h2>
+  <article class="media">
+
+    <p class="pull-left">
+      <img class="media-object" src="{{ page.logo }}" width="64" height="64" alt="#">
+    </p>
+
+    <div class="media-body">
+      <h3 class="media-heading">
+        {{ page.title }}
+        {% if page.year %}
+          ({{ page.year }})
+        {% endif %}
+      </h3>
+
+      <p class="punchline">
+        {{ page.summary }}
+      </p>
+    </div>
+
+  </article>
+
+  {% if page.website %}
+    <h3>
+      <small>
+        <a href="{{ page.website }}">{{ page.website | remove: "https://" | remove: "http://" | remove: "www." }}</a>
+      </small>
+    </h3>
+  {% endif %}
+
+  {{ content }}
+</div>
