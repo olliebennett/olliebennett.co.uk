@@ -15,7 +15,3 @@ collections:
   projects:
     output: true
     permalink: projects/:slug/
-    order:
-      - student_spreadsheet.md
-      - qrupted.md
-      - coursecalc.md

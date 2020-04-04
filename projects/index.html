@@ -9,7 +9,8 @@ categories: none
 
 <h2>Projects</h2>
 
-{% for project in site.projects %}
+{% assign projects = site.projects | reverse %}
+{% for project in projects %}
   <article class="media">
 
     <a class="pull-left" href="{{ project.url }}">
@@ -19,12 +20,10 @@ categories: none
     <div class="media-body">
 
       <h3 class="media-heading">
-        <a href="{{ project.url }}">
-          {{ project.title }}
-        </a>
+        <a href="{{ project.url }}">{{ project.title }}</a>
         {% if project.website %}
           <small>
-            <a href="{{ project.website }}">{{ project.website | remove: "https://" | remove: "http://" | remove: "www." }}</a>
+            <a href="{{ project.website }}">{{ project.website_pretty }}</a>
           </small>
         {% endif %}
       </h3>

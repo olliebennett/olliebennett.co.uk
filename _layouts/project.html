@@ -13,8 +13,8 @@ layout: default
     <div class="media-body">
       <h3 class="media-heading">
         {{ page.title }}
-        {% if page.year %}
-          ({{ page.year }})
+        {% if page.date %}
+          (since {{ page.date | date: "%Y" }})
         {% endif %}
       </h3>
 
@@ -28,7 +28,7 @@ layout: default
   {% if page.website %}
     <h3>
       <small>
-        <a href="{{ page.website }}">{{ page.website | remove: "https://" | remove: "http://" | remove: "www." }}</a>
+        <a href="{{ page.website }}">{{ page.website_pretty }}</a>
       </small>
     </h3>
   {% endif %}
