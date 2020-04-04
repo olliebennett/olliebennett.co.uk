@@ -79,59 +79,14 @@ p {
   margin-bottom: 10px;
 }
 
-a, a:visited, a:active, a:hover {
-  text-decoration: none;
+a {
   color: black;
+  text-decoration: none;
 }
 
-@media print {
-  /* Hide Navigation */
-  nav {
-    display: none;
-  }
-
-  /*
-  .page-break {
-    page-break-before: always;
-  }
-
-
-  article {
-    page-break-inside: avoid;
-    page-break-before: avoid;
-  }
- */
-  h1, h2, h3, h4, h5, h6 {
-    page-break-after: avoid;
-  }
-
-  /*
-  body {
-    background: white;
-  }
-  */
-
-  #container {
-
-    border: 0;
-
-  }
-
-  /* Show link URLs when printing */
-  a.printable:link:after, a.printable:visited:after {
-    content:" [" attr(href) "]";
-  }
-
-  /* Show links as normal text */
-  a {
-    color: black;
-    text-decoration: none;
-  }
-
-  .skill {
-    border: 1px solid #000;
-  }
-
+p > a,
+a:hover {
+  text-decoration: underline;
 }
 
 .img-circle {

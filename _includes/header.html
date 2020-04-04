@@ -1,47 +1,41 @@
-    <header>
-
-      <div id="site-logo">
+<header>
+  <div id="site-logo">
 {% if page.url == '/contact/index.html' %}
-        <a href="/"><img src="/assets/img/contact-qr.png" alt="QR Code" width="150" height="150" /></a>
+    <a href="/"><img src="/assets/img/contact-qr.png" alt="QR Code" width="150" height="150" /></a>
 {% else %}
   {% if page.title == "Home" %}
-        <img class="img-circle" src="/assets/img/face.jpg" alt="Site Logo" width="150" height="150" />
+      <img class="img-circle" src="/assets/img/face.jpg" alt="Site Logo" width="150" height="150" />
   {% else %}
-        <a href="/"><img class="img-circle" src="/assets/img/face.jpg" alt="Site Logo" width="150" height="150" /></a>
+      <a href="/"><img class="img-circle" src="/assets/img/face.jpg" alt="Site Logo" width="150" height="150" /></a>
   {% endif %}
 {% endif %}
-      </div>
+  </div>
 
-      <h1>
-{% if page.title == "Home" %}
-        Ollie Bennett
-{% else %}
-        <a href="/">Ollie Bennett</a>
-{% endif %}
-      </h1>
+  <h1>
+    Ollie Bennett
+  </h1>
 
-      <nav>
+  <nav>
 {% if page.title == "Home" %}
-        <i class="fa fa-home current-page"></i>
+    <i class="fa fa-home current-page"></i>
 {% else %}
-        <a href="/"><i class="fa fa-home"></i></a>
+    <a href="/"><i class="fa fa-home"></i></a>
 {% endif %}
-      	 | 
+  	 |
 {% if page.title == "Projects" %}
-        <i class="fa fa-cogs current-page"></i>
+    <i class="fa fa-cogs current-page"></i>
 {% else %}
-        <a href="/projects/"><i class="fa fa-cogs"></i></a>
+    <a href="/projects/"><i class="fa fa-cogs"></i></a>
 {% endif %}
-      	<!--
-      	 | 
-      	<a href="/blog/"><i class="fa fa-comment-o"></i></a>
-      	-->
-      	 | 
+  	<!--
+  	 |
+  	<a href="/blog/"><i class="fa fa-comment-o"></i></a>
+  	-->
+  	 |
 {% if page.title == "Contact" %}
-        <i class="fa fa-envelope current-page"></i>
+    <i class="fa fa-envelope current-page"></i>
 {% else %}
-        <a href="/contact/"><i class="fa fa-envelope"></i></a>
+    <a href="/contact/"><i class="fa fa-envelope"></i></a>
 {% endif %}
-      </nav>
-
-    </header>
+  </nav>
+</header>
