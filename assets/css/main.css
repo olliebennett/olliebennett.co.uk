@@ -54,17 +54,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-
 h1 {
-
   margin: 0;
   /*font-family: 'surfacemedium';*/
   font-size: 3em;
-
 }
 
 h2 {
-
   /*font-family: 'bebas_neueregular';*/
   font-variant: small-caps;
   text-align: center;
@@ -72,6 +68,12 @@ h2 {
 
 h3 {
   margin: 0;
+}
+
+h4 {
+  margin: 0;
+  font-weight: normal;
+  font-style: italic;
 }
 
 p {
