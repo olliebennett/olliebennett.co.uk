@@ -1,6 +1,5 @@
 # standard jekyll configuration
 
-permalink: /blog/:title
 highlighter: false
 exclude: ['README.md']
 
