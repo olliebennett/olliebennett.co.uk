@@ -12,6 +12,17 @@ noindex: true
 
 ## Experience
 
+### Full&nbsp;Stack&nbsp;Developer / acasa / 2015&nbsp;-&nbsp;present
+
+#### First employee, focussed on backend API, partner integrations and payments infrastructure.
+
+- Developed Ruby on Rails app for end-to-end home utility services provision, from booking (incl. web flow UI and app flow API), payment collection and supplier integrations.
+- Built extensive back-office interface and controls to access and manipulate customer data and accounts.
+- Tuned ActiveRecord/PostgreSQL queries for user-facing and background task performance.
+- Determined operations team requirements and implemented automation to augment or replace manual processes.
+- Created plugins and browser extensions to bypass menial tasks and improve team productivity.
+- Built initial MVP mobile apps (iOS + Android) using Ionic hybrid framework to interact with API.
+
 ### Technical&nbsp;Consultant / HP&nbsp;Autonomy / 2012&nbsp;-&nbsp;2014
 
 #### A client-facing post-sales consultant providing customisation and delivery of enterprise software.
