@@ -16,23 +16,20 @@ noindex: true
 
 #### A client-facing post-sales consultant providing customisation and delivery of enterprise software.
 
-- Development of extensive customised logic for banks' post-trade documentation management, requiring a highly-performant and failure-resistant Java/J2EE application. Also controlled server configuration and integration with upstream systems. Extensive front-end design using modern technologies while ensuring back-compatibility with client's legacy browsers.
-
-- Helped develop new software offering for HP, following requirement capturing from a law enforcement agency. Integrated third-party facial-recognition software and a heavily tailored HTML/CSS/JavaScript interface into a pre-existing content management offering.
-
-- Joined several high-pressure projects, visiting clients to manage expectations while liasing with Engineering and Support teams to effectively resolve product issues. Restored positive relationships through flexibility and willingness to assist wherever possible (as was reflected by very positive feedback from clients post go-live).
-
-- Worked with several highly experienced external Java consultants to gain substantial "best-practice" knowledge of development. Inherited responsibility after their contracts ended.
-
-- Created and shared time-saving scripts/tools for automating builds and deployments during off-site development, as well as proposing project tracking and collaboration tools to management which were subsequently adopted.
-
-- Oversaw critical migrations and go-live events (often outside the UK, and outside working hours), reacting fast to issues and identifying resolutions or workarounds in the absence of support.
+- Variety of on-site implementation projects for banks across Europe.
+- Worked on critical document-processing systems, learning from highly skilled Java/J2EE developers.
+- Developed interface for new software offering, integrating facial recognition software following requirement gathering from law enforcement agency.
+- Took initiative to create time-saving tools for automating builds and deployments.
+- Sent in to resolve derailed high-pressure projects and restore client relationship.
+- Oversaw critical migrations and go-live events (abroad and outside working hours), resolving issues or workarounds in the absence of support.
 
 ### Master's&nbsp;Dissertation / University&nbsp;of&nbsp;Nottingham / 2011
 
 #### Quantum Reflection of Ultra-Cold Atoms from Room Temperature Silicon
 
-This project involved computationally analysing quantum mechanical phenomena, through modelling the reflection of ultra-cold groups of atom as they approached a surface. I repeatedly improved the methods implemented in MATLAB and C++, such that more accurate representations could be made. The resulting project was "one of the best" the supervisor had seen.
+- Computational analysis of quantum mechanical phenomena, modelling reflection of Bose-Einstein condensates as they approach a surface.
+- Repeatedly improved performance in MATLAB and C++ to improve models.
+- Resulting project was "one of the best" the supervisor had seen.
 
 ## Personal Projects
 
@@ -78,10 +75,6 @@ Exceptional leadership and organisational skills led to additional responsibilit
 Assessed and delivered appropriate level of information to HP and client management teams.
 
 Developed my communication skills significantly while travelling worldwide independently for six months.
-
-<!--
-Fielded phone calls and emails in response to a multitude of issues as a Volunteer for Nottingham University Nightline - a listening, emotional support and information service run by students for students.
--->
 
 ### Teamwork
 
