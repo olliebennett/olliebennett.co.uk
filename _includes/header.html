@@ -21,21 +21,25 @@
 {% else %}
     <a href="/"><i class="fa fa-home"></i></a>
 {% endif %}
-  	 |
+&nbsp;
 {% if page.title == "Projects" %}
     <i class="fa fa-cogs current-page"></i>
 {% else %}
-    <a href="/projects/"><i class="fa fa-cogs"></i></a>
+    <a href="/projects"><i class="fa fa-cogs"></i></a>
 {% endif %}
-  	<!--
-  	 |
-  	<a href="/blog/"><i class="fa fa-comment-o"></i></a>
-  	-->
-  	 |
+&nbsp;
+<!--
+{% if page.title == "Thoughts" %}
+  	<i class="fa fa-lightbulb-o current-page"></i>
+{% else %}
+    <a href="/thoughts"><i class="fa fa-lightbulb-o"></i></a>
+{% endif %}
+&nbsp;
+-->
 {% if page.title == "Contact" %}
     <i class="fa fa-envelope current-page"></i>
 {% else %}
-    <a href="/contact/"><i class="fa fa-envelope"></i></a>
+    <a href="/contact"><i class="fa fa-envelope"></i></a>
 {% endif %}
   </nav>
 </header>
