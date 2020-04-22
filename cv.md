@@ -2,7 +2,6 @@
 layout: default
 title: CV
 description: Ollie's Curriculum Vitae
-categories: none
 noindex: true
 ---
 
