@@ -2,7 +2,7 @@
 layout: blogpost
 title: Baby Boy Tips
 categories: kids
-source: https://www.linkedin.com/in/nateabele/
+source: nate
 ---
 
 - Boys are destructive but very simple.

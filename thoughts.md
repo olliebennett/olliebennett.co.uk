@@ -13,7 +13,12 @@ categories: none
       <h3>
         {{ post.title }}
         {% if post.source %}
-          <small>- <a href="{{ post.source }}">source</a></small>
+          {% assign source_protocol = post.source | split: ":" | first %}
+          {% if source_protocol == 'http' or source_protocol == 'https' %}
+            <small>- <a href="{{ post.source }}">source</a></small>
+          {% else %}
+            <small>- source: {{ post.source }}</small>
+          {% endif %}
         {% endif %}
       </h3>
     {% endif %}
