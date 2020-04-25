@@ -1,11 +1,12 @@
 # standard jekyll configuration
 
 highlighter: false
+include: ['_redirects']
 exclude: ['README.md']
 
 # configuration required for some pages
 
-domain: olliebennett.github.io
+domain: olliebennett.co.uk
 title: Ollie Bennett
 author: Ollie Bennett
 email: olliebennett@gmail.com
