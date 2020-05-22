@@ -1,28 +1,27 @@
 ---
 layout: default
 title: Thoughts
-description: Ollie's posts
+description: Ollie's thoughts
 categories: none
 ---
 
 ## Thoughts
 
-{% for post in site.posts %}
-  <div class="post">
-    {% if post.title %}
+{% for thought in site.thoughts %}
+  <div class="thought">
+    {% if thought.title %}
       <h3>
-        {{ post.title }}
-        {% if post.source %}
-          {% assign source_protocol = post.source | split: ":" | first %}
-          {% if source_protocol == 'http' or source_protocol == 'https' %}
-            <small>- <a href="{{ post.source }}">source</a></small>
+        {{ thought.title }}
+        {% if thought.source %}
+          {% if thought.source contains 'http://' or thought.source contains 'https://' %}
+            <small>- <a href="{{ thought.source }}">source</a></small>
           {% else %}
-            <small>- source: {{ post.source }}</small>
+            <small>- source: {{ thought.source }}</small>
           {% endif %}
         {% endif %}
       </h3>
     {% endif %}
 
-    {{ post.content }}
+    {{ thought.content }}
   </div>
 {% endfor %}

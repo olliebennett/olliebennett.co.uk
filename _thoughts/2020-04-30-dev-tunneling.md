@@ -1,5 +1,4 @@
 ---
-layout: blogpost
 title: Dev Environment Tunneling Options
 categories: tech
 ---

@@ -1,5 +1,4 @@
 ---
-layout: blogpost
 title: Quick Filesharing
 categories: tech
 ---

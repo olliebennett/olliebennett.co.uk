@@ -12,6 +12,8 @@ author: Ollie Bennett
 email: olliebennett@gmail.com
 
 collections:
+  thoughts:
+    output: false
   projects:
     output: true
     permalink: projects/:slug/

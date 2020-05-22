@@ -1,5 +1,4 @@
 ---
-layout: blogpost
 title: Baby Boy Tips
 categories: kids
 source: nate
