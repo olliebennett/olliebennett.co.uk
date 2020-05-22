@@ -14,7 +14,9 @@ layout: default
       <h3 class="media-heading">
         {{ page.title }}
         {% if page.date %}
-          (since {{ page.date | date: "%Y" }})
+          {% assign project_year = page.date | date: "%Y" %}
+          {% assign current_year = site.time | date: "%Y" %}
+          ({% if project_year != current_year %}since {% endif %}{{ page.date | date: "%Y" }})
         {% endif %}
       </h3>
 
