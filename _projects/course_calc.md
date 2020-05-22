@@ -6,6 +6,10 @@ website_pretty: coursecalc.com
 summary: Track and calculate your current and projected degree grade.
 logo: /assets/img/projects/coursecalc.png
 date: 2012-01-01
+tools:
+  - Apache
+  - MySQL
+  - PHP
 ---
 
 Calculating your degree or course progress can be tricky.

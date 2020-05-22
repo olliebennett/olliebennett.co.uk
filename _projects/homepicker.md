@@ -6,6 +6,10 @@ website_pretty: homepicker.herokuapp.com
 summary: Collaborate on your home search
 logo: /assets/img/projects/homepicker.svg
 date: 2020-05-01
+tools:
+  - Ruby on Rails
+  - Heroku
+  - PostgreSQL
 ---
 
 Home Picker (catchy name, I know!) helps people collaborate on their property search

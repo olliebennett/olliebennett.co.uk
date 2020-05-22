@@ -6,6 +6,10 @@ website_pretty: qrupted.com
 summary: Corrupted QR Codes with custom text overlay.
 logo: /assets/img/projects/qrupted.png
 date: 2014-01-01
+tools:
+  - Raw HTML
+  - jQuery
+  - jquery-qrcode
 ---
 
 Generate a QR Code with pixellated ASCII text superimposed! Enter your QR data to encode, and some brief text to overlay, and the QR code is created in realtime in your browser.

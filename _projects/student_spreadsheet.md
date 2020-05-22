@@ -6,6 +6,13 @@ website_pretty: studentspreadsheet.com
 summary: Sharing household expenses with friends.
 logo: /assets/img/projects/stsp.png
 date: 2007-01-01
+tools:
+  - Apache
+  - MySQL
+  - PHP
+  - CodeIgniter
+  - Selenium
+  - Facebook Login
 ---
 
 Initially arising from the need to simplify the splitting of receipts with housemates at uni, this bill sharing utility allows tracking costs, calculating how much you owe, and notifying your housemates to pay you back!

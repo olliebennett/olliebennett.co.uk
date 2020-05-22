@@ -27,13 +27,19 @@ layout: default
 
   </article>
 
-  {% if page.website %}
-    <h3>
-      <small>
+  <h3>
+    <small>
+      {% if page.website %}
         <a href="{{ page.website }}">{{ page.website_pretty }}</a>
-      </small>
-    </h3>
-  {% endif %}
+      {% endif %}
+    </small>
+  </h3>
+
+  <p>
+    {% for tool in page.tools %}
+      <span class="badge badge-dark">{{ tool }}</span>
+    {% endfor %}
+  </p>
 
   {{ content }}
 </div>
