@@ -2,7 +2,7 @@
 layout: project
 title: HomePicker
 website: https://www.homepicker.app/
-website_pretty: www.homepicker.app
+website_pretty: homepicker.app
 summary: Collaborate on your home search
 logo: /assets/img/projects/homepicker.svg
 date: 2020-05-01
