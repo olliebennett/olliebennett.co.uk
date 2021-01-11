@@ -3,6 +3,7 @@ layout: project
 title: QRupted
 website: https://www.qrupted.com
 website_pretty: qrupted.com
+source_code_url: https://github.com/olliebennett/qrupted
 summary: Corrupted QR Codes with custom text overlay.
 logo: /assets/img/projects/qrupted.png
 date: 2014-01-01

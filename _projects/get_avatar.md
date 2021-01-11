@@ -3,6 +3,7 @@ layout: project
 title: GetAvatar
 website: https://www.getavatar.info/
 website_pretty: getavatar.info
+source_code_url: https://github.com/olliebennett/gravatar-decoder
 summary: Extract email from Gravatar images
 logo: /assets/img/projects/get-avatar.png
 date: 2016-07-09

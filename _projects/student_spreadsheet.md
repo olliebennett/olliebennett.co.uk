@@ -3,6 +3,7 @@ layout: project
 title: Student Spreadsheet
 website: http://studentspreadsheet.com
 website_pretty: studentspreadsheet.com
+source_code_url: https://github.com/olliebennett/student-spreadsheet-codeigniter
 summary: Sharing household expenses with friends.
 logo: /assets/img/projects/stsp.png
 date: 2007-01-01

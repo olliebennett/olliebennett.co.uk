@@ -3,6 +3,7 @@ layout: project
 title: Course Calc
 website: http://coursecalc.com
 website_pretty: coursecalc.com
+source_code_url: https://github.com/olliebennett/course-calc
 summary: Track and calculate your current and projected degree grade.
 logo: /assets/img/projects/coursecalc.png
 date: 2012-01-01
