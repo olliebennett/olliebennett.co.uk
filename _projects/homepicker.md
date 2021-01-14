@@ -4,6 +4,7 @@ title: HomePicker
 website: https://www.homepicker.app/
 website_pretty: homepicker.app
 source_code_url: https://github.com/olliebennett/homepicker
+prefetch: true
 summary: Collaborate on your home search
 logo: /assets/img/projects/homepicker.svg
 date: 2020-05-01

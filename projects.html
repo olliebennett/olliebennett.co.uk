@@ -25,6 +25,9 @@ categories: none
           <small>
             <a href="{{ project.website }}">{{ project.website_pretty }}</a>
           </small>
+          {% if project.prefetch %}
+            <link rel="prefetch" href="{{ project.website }}" />
+          {% endif %}
         {% endif %}
       </h3>
 
