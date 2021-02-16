@@ -7,21 +7,24 @@ categories: none
 
 ## Thoughts
 
-{% for thought in site.thoughts %}
+{% assign thoughts = site.thoughts | reverse %}
+{% for thought in thoughts %}
   <div class="thought">
-    {% if thought.title %}
-      <h3>
-        {{ thought.title }}
-        {% if thought.source %}
-          {% if thought.source contains 'http://' or thought.source contains 'https://' %}
-            <small>- <a href="{{ thought.source }}">source</a></small>
-          {% else %}
-            <small>- source: {{ thought.source }}</small>
-          {% endif %}
-        {% endif %}
-      </h3>
-    {% endif %}
+    <h3>
+      {{ thought.title }}
+      {% for cat in thought.categories %}
+        <span class="skill skill-expert">{{ cat }}</span>
+      {% endfor %}
+    </h3>
 
     {{ thought.content }}
+
+    {% if thought.source_url and thought.source_title %}
+      <p>Source: <a href="{{ thought.source_url }}">{{ thought.source_title }}</a></p>
+    {% elsif thought.source_url %}
+      <p><a href="{{ thought.source_url }}">Source</a></p>
+    {% elsif thought.source_title %}
+      <p>Source: {{ thought.source_title }}</p>
+    {% endif %}
   </div>
 {% endfor %}
