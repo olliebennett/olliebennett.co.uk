@@ -13,7 +13,8 @@ email: olliebennett@gmail.com
 
 collections:
   thoughts:
-    output: false
+    output: true
+    permalink: thoughts/:slug/
   projects:
     output: true
     permalink: projects/:slug/

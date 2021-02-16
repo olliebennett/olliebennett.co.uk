@@ -1,4 +1,5 @@
 ---
+layout: thought
 title: Quick Filesharing
 categories: tech
 ---

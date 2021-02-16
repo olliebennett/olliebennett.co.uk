@@ -1,4 +1,5 @@
 ---
+layout: thought
 title: Baby Boy Tips
 categories: kids
 source_title: Nate

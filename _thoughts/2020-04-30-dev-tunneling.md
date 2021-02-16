@@ -1,4 +1,5 @@
 ---
+layout: thought
 title: Dev Environment Tunneling Options
 categories: tech
 ---

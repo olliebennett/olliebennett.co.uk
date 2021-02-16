@@ -1,4 +1,5 @@
 ---
+layout: thought
 title: Language Development
 categories: kids
 source_url: https://open.spotify.com/show/7d0zADJyUziEbuKWFYcckN

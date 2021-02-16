@@ -1,4 +1,5 @@
 ---
+layout: thought
 title: Function Machine Game
 categories: kids
 source_url: https://byorgey.wordpress.com/2018/05/06/conversations-with-a-six-year-old-on-functional-programming/

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="jumbotron">
+  <h2>
+    {{ page.title }}
+  </h2>
+
+  <p class="centered">
+    {% for cat in page.categories %}
+      <span class="skill skill-expert">{{ cat }}</span>
+    {% endfor %}
+  </p>
+
+  {{ content }}
+</div>
+
+<hr>
+
+<small>({{ page.date | date: "%h %Y" }})</small>
+
+{% if page.source_url and page.source_title %}
+  <small>Source: <a href="{{ page.source_url }}">{{ page.source_title }}</a></small>
+{% elsif page.source_url %}
+  <small><a href="{{ page.source_url }}">source</a></small>
+{% elsif page.source_title %}
+  <small>Source: {{ page.source_title }}
+{% endif %}
