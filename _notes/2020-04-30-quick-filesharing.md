@@ -1,5 +1,5 @@
 ---
-layout: thought
+layout: note
 title: Quick Filesharing
 categories: tech
 ---

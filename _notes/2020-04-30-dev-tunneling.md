@@ -1,5 +1,5 @@
 ---
-layout: thought
+layout: note
 title: Dev Environment Tunneling Options
 categories: tech
 ---

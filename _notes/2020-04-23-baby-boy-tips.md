@@ -1,5 +1,5 @@
 ---
-layout: thought
+layout: note
 title: Baby Boy Tips
 categories: kids
 source_title: Nate
