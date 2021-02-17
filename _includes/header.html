@@ -22,20 +22,19 @@
     <a href="/"><i class="fa fa-home"></i></a>
 {% endif %}
 &nbsp;
+{% if page.title == "Notes" %}
+    <i class="fa fa-lightbulb-o current-page"></i>
+  &nbsp;
+{% elsif page.collection == "notes" %}
+    <a href="/notes"><i class="fa fa-lightbulb-o"></i></a>
+  &nbsp;
+{% endif %}
 {% if page.title == "Projects" %}
     <i class="fa fa-cogs current-page"></i>
 {% else %}
     <a href="/projects"><i class="fa fa-cogs"></i></a>
 {% endif %}
 &nbsp;
-<!--
-{% if page.title == "Thoughts" %}
-  	<i class="fa fa-lightbulb-o current-page"></i>
-{% else %}
-    <a href="/thoughts"><i class="fa fa-lightbulb-o"></i></a>
-{% endif %}
-&nbsp;
--->
 {% if page.title == "Contact" %}
     <i class="fa fa-envelope current-page"></i>
 {% else %}

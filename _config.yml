@@ -12,9 +12,9 @@ author: Ollie Bennett
 email: olliebennett@gmail.com
 
 collections:
-  thoughts:
+  notes:
     output: true
-    permalink: thoughts/:slug/
+    permalink: notes/:slug/
   projects:
     output: true
     permalink: projects/:slug/
