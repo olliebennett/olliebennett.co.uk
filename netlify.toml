@@ -1,0 +1,6 @@
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://olliebennett.netlify.app/*"
+  to = "https://www.olliebennett.co.uk/:splat"
+  status = 301
+  force = true
