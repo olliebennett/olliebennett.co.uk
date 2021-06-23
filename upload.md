@@ -7,4 +7,4 @@ noindex: true
 
 ## Upload
 
-Go [here](https://www.dropbox.com/request/ovsaxEqpmmexNdFQO0WG) to upload files to Ollie's dropbox.
+Go to [bit.ly/files-for-ollie](https://bit.ly/files-for-ollie) to upload files to Ollie's dropbox.
